@@ -1,0 +1,28 @@
+.header__email {
+    display: block;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #ffffff;
+    margin: 0 24px 46px auto;
+}
+
+.header__email-burger {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    padding: 0;
+    margin: 40px 0 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .header__email {
+        display: none;
+    }
+}

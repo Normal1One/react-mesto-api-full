@@ -1,0 +1,29 @@
+.register__input {
+    margin: 0;
+    border: 0;
+    border-bottom: 2px solid #cccccc;
+    max-width: 358px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0 0 13px;
+    width: 358px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.register__input:first-child {
+    margin-bottom: 30px;
+}
+
+.register__input:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .register__input {
+        max-width: 260px;
+    }
+}

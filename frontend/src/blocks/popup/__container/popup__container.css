@@ -1,0 +1,34 @@
+.popup__container {
+    width: 430px;
+    height: 330px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 10px;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup__container_delete {
+    height: 181px;
+}
+
+.popup__container_avatar {
+    height: 272px;
+}
+
+@media screen and (max-width: 1024px) {
+    .popup__container {
+        width: 282px;
+        height: 322px;
+    }
+    .popup__container_delete {
+        height: 181px;
+    }
+    .popup__container_avatar {
+        height: 272px;
+    }
+}

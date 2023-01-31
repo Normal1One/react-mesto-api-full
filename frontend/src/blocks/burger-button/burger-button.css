@@ -1,0 +1,13 @@
+.burger-button {
+    background-image: url("../../images/BurgerButton.svg");
+    width: 24px;
+    display: none;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .burger-button {
+        display: block;
+    }
+}

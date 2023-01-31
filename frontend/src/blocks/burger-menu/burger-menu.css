@@ -1,0 +1,18 @@
+.burger-menu {
+    height: 142px;
+    flex-direction: column;
+    display: none;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.burger-menu__opened {
+    display: flex;
+}
+
+@media screen and (min-width: 768px) {
+    .burger-menu {
+        display: none;
+    }
+}

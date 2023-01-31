@@ -1,0 +1,17 @@
+.register__icon {
+    background-image: url("../../../images/Successfully.svg");
+    width: 120px;
+    height: 120px;
+    margin: 60px auto 0;
+    padding: 0;
+}
+
+.register__icon.unsuccessfully {
+    background-image: url("../../../images/Unsuccessfully.svg");
+}
+
+@media screen and (max-width: 1024px) {
+    .register__icon {
+        margin-top: 50px;
+    }
+}

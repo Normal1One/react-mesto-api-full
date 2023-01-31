@@ -1,0 +1,5 @@
+.element__bottom-element {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 0 15px 31px 21px;
+}
