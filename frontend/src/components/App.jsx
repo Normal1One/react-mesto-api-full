@@ -211,7 +211,7 @@ function App() {
             .finally(() => {
                 history.push('/')
             })
-    })
+    }, [])
 
     return (
         <div className="page">
