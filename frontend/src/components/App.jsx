@@ -141,6 +141,7 @@ function App() {
         auth.authorize(formValues)
             .then((res) => {
                 if (res.jwt) {
+                    getData()
                     setLoggedIn(true)
                     history.push('/')
                 }
@@ -188,7 +189,7 @@ function App() {
             })
     }
 
-    React.useEffect(() => {
+    function getData() {
         Promise.all([api.getInitialCards(), api.getProfileInfo()])
             .then(([initialCards, profileData]) => {
                 setCards(initialCards.data)
@@ -198,11 +199,12 @@ function App() {
             .catch((err) => {
                 console.log(err)
             })
-    }, [loggedIn])
+    }
 
     React.useEffect(() => {
         auth.checkToken()
             .then(() => {
+                getData()
                 setLoggedIn(true)
             })
             .catch((err) => {
