@@ -1,8 +1,5 @@
 # react-mesto-api-full
-Репозиторий для приложения проекта `Mesto`, включающий фронтенд и бэкенд части приложения со следующими возможностями: авторизации и регистрации пользователей, операции с карточками и пользователями. Бэкенд расположите в директории `backend/`, а фронтенд - в `frontend/`. 
-  
-Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
+Repository for the `Mesto` project application, including frontend and backend parts of the application with the following features: authorization and user registration, card and user operations.
 
-- IP 158.160.21.65 
 - Frontend https://mesto.nikitalavrov.nomoredomainsclub.ru 
 - Backend https://api.mesto.nikitalavrov.nomoredomainsclub.ru
